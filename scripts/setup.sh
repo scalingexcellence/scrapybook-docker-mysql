@@ -9,7 +9,7 @@ apt-get install -y --no-install-recommends mysql-server
 mkdir -p /etc/service/mysql
 
 cp /tmp/scripts/mysql.sh /etc/service/mysql/run
-#cp /tmp/scripts/my-small.cnf /etc/mysql/my.cnf
+cp /tmp/scripts/my.cnf /etc/mysql/my.cnf
 
 rm -rf /var/lib/apt/lists/* /tmp/scripts
 
